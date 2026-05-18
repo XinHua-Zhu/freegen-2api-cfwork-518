@@ -1,0 +1,11 @@
+name = "freegen-2api"   # 自定义你的 Worker 名称
+main = "cfwork.js"      # 指向仓库的主 JS 文件（如果是 index.js 就改成 index.js）
+compatibility_date = "2026-05-18"  # 使用较新的日期
+
+# 可选：启用 Workers.dev 子域
+workers_dev = true
+
+# 如果你想绑定自定义域名，添加：
+# [[routes]]
+# pattern = "你的域名/*"
+# zone_name = "你的域名"
